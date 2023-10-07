@@ -1,0 +1,618 @@
+2023-10-07 15:09:00,472 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 15:09:10,684 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 15:09:25,680 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:09:25,681 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:10:08,748 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 15:10:14,714 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 15:10:14,822 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:10:14,822 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:10:14,834 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 15:10:14,899 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:10:14,899 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:11:09,073 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 15:11:09,087 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 15:11:09,184 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:11:09,184 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:11:09,197 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 15:11:09,258 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:11:09,259 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:11:34,389 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 15:11:48,424 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 15:11:48,436 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 15:11:48,535 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:11:48,535 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:11:48,544 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 15:11:48,607 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:11:48,607 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:11:50,984 - SubProcess.py    - INFO  - 线程: 24768 运行中...
+2023-10-07 15:12:21,318 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 15:12:21,331 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 15:12:21,426 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:12:21,430 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:12:21,438 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 15:12:21,494 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:12:21,494 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:12:21,494 - SubProcess.py    - INFO  - 线程: 26812 运行中...
+2023-10-07 15:13:30,924 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 15:13:30,944 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 15:13:31,054 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:13:31,054 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:13:31,070 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 15:13:31,146 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:13:31,146 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:13:31,146 - SubProcess.py    - INFO  - 线程: 31740 运行中...
+2023-10-07 15:13:59,264 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 15:13:59,274 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 15:13:59,408 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:13:59,408 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:13:59,416 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 15:13:59,496 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:13:59,496 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:13:59,496 - SubProcess.py    - INFO  - 线程: 24236 运行中...
+2023-10-07 15:16:28,304 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 15:16:28,324 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 15:16:28,414 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:16:28,414 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:16:28,438 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 15:16:28,508 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:16:28,508 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:16:28,508 - SubProcess.py    - INFO  - 线程: 29356 运行中...
+2023-10-07 15:16:36,415 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 15:16:43,074 - GameOperation.py - INFO  - 窗口句柄: 396336 游戏中...
+2023-10-07 15:23:40,034 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 15:23:40,055 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 15:23:40,179 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:23:40,179 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:23:40,201 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 15:23:40,284 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:23:40,284 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:23:40,284 - SubProcess.py    - INFO  - 线程: 25036 运行中...
+2023-10-07 15:23:44,467 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 15:23:52,557 - GameOperation.py - INFO  - 窗口句柄: 396336 游戏中...
+2023-10-07 15:24:50,564 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 15:24:50,575 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 15:24:50,714 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:24:50,714 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:24:50,734 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 15:24:50,814 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:24:50,814 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:24:50,814 - SubProcess.py    - INFO  - 线程: 31904 运行中...
+2023-10-07 15:24:51,043 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 15:24:54,563 - GameOperation.py - INFO  - 窗口句柄: 396336 游戏中...
+2023-10-07 15:25:39,749 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 15:25:39,765 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 15:25:39,900 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:25:39,900 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:25:39,917 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 15:25:40,007 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:25:40,007 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:25:40,007 - SubProcess.py    - INFO  - 线程: 25428 运行中...
+2023-10-07 15:25:40,213 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 15:25:43,335 - GameOperation.py - INFO  - 窗口句柄: 396336 游戏中...
+2023-10-07 15:26:34,584 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 15:26:34,604 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 15:26:34,745 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:26:34,745 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:26:34,765 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 15:26:34,844 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:26:34,844 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:26:34,844 - SubProcess.py    - INFO  - 线程: 33356 运行中...
+2023-10-07 15:26:35,065 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 15:26:51,635 - GameOperation.py - INFO  - 窗口句柄: 396336 游戏中...
+2023-10-07 15:38:04,815 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 15:38:04,835 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 15:38:04,975 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:38:04,975 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:38:04,991 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 15:38:05,071 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:38:05,071 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:38:05,071 - SubProcess.py    - INFO  - 线程: 33968 运行中...
+2023-10-07 15:38:05,283 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 15:38:05,283 - GameOperation.py - INFO  - 窗口句柄: 396336 游戏中...
+2023-10-07 15:38:33,145 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 15:38:33,165 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 15:38:33,295 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:38:33,295 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:38:33,307 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 15:38:33,410 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:38:33,410 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:38:33,410 - SubProcess.py    - INFO  - 线程: 31536 运行中...
+2023-10-07 15:38:33,620 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 15:38:33,620 - GameOperation.py - INFO  - 窗口句柄: 396336 游戏中...
+2023-10-07 15:38:58,725 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 15:38:58,738 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 15:38:58,865 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:38:58,865 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:38:58,885 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 15:38:58,975 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:38:58,975 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:38:58,975 - SubProcess.py    - INFO  - 线程: 32956 运行中...
+2023-10-07 15:38:59,192 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 15:38:59,192 - GameOperation.py - INFO  - 窗口句柄: 396336 游戏中...
+2023-10-07 15:39:43,865 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 15:39:43,885 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 15:39:44,019 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:39:44,019 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:39:44,035 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 15:39:44,126 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:39:44,126 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:39:44,126 - SubProcess.py    - INFO  - 线程: 33736 运行中...
+2023-10-07 15:39:44,337 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 15:39:44,337 - GameOperation.py - INFO  - 窗口句柄: 396336 游戏中...
+2023-10-07 15:41:02,305 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 15:41:02,325 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 15:41:02,465 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:41:02,465 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:41:02,480 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 15:41:02,567 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:41:02,567 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:41:02,567 - SubProcess.py    - INFO  - 线程: 34064 运行中...
+2023-10-07 15:41:02,776 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 15:41:02,776 - GameOperation.py - INFO  - 窗口句柄: 396336 游戏中...
+2023-10-07 15:44:46,526 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 15:44:46,546 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 15:44:46,676 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:44:46,676 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:44:46,685 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 15:44:46,777 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:44:46,777 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:44:46,777 - SubProcess.py    - INFO  - 线程: 35532 运行中...
+2023-10-07 15:44:46,996 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 15:44:46,996 - GameOperation.py - INFO  - 窗口句柄: 396336 游戏中...
+2023-10-07 15:45:50,695 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 15:45:50,716 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 15:45:50,847 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:45:50,847 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:45:50,864 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 15:45:50,941 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:45:50,942 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:45:50,942 - SubProcess.py    - INFO  - 线程: 31808 运行中...
+2023-10-07 15:45:51,160 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 15:45:51,160 - GameOperation.py - INFO  - 窗口句柄: 396336 游戏中...
+2023-10-07 15:46:15,976 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 15:46:15,998 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 15:46:16,126 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:46:16,126 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:46:16,145 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 15:46:16,226 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:46:16,226 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:46:16,226 - SubProcess.py    - INFO  - 线程: 19276 运行中...
+2023-10-07 15:46:16,443 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 15:46:16,443 - GameOperation.py - INFO  - 窗口句柄: 396336 游戏中...
+2023-10-07 15:48:22,396 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 15:48:22,406 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 15:48:22,536 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:48:22,536 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:48:22,562 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 15:48:22,655 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:48:22,655 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:48:22,655 - SubProcess.py    - INFO  - 线程: 35312 运行中...
+2023-10-07 15:48:22,861 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 15:48:22,861 - GameOperation.py - INFO  - 窗口句柄: 396336 游戏中...
+2023-10-07 15:48:45,616 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 15:48:45,636 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 15:48:45,765 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:48:45,765 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:48:45,791 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 15:48:45,886 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:48:45,886 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:48:45,886 - SubProcess.py    - INFO  - 线程: 34216 运行中...
+2023-10-07 15:48:46,093 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 15:48:46,093 - GameOperation.py - INFO  - 窗口句柄: 396336 游戏中...
+2023-10-07 15:50:04,056 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 15:50:04,076 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 15:50:04,196 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:50:04,196 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:50:04,216 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 15:50:04,296 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:50:04,306 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:50:04,306 - SubProcess.py    - INFO  - 线程: 35608 运行中...
+2023-10-07 15:50:04,509 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 15:50:04,509 - GameOperation.py - INFO  - 窗口句柄: 396336 游戏中...
+2023-10-07 15:50:53,756 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 15:50:53,776 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 15:50:53,905 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:50:53,905 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:50:53,931 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 15:50:54,016 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:50:54,016 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:50:54,016 - SubProcess.py    - INFO  - 线程: 33736 运行中...
+2023-10-07 15:50:54,231 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 15:50:54,231 - GameOperation.py - INFO  - 窗口句柄: 396336 游戏中...
+2023-10-07 15:51:11,975 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 15:51:11,996 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 15:51:12,130 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:51:12,130 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:51:12,149 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 15:51:12,236 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:51:12,236 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:51:12,236 - SubProcess.py    - INFO  - 线程: 34684 运行中...
+2023-10-07 15:51:12,453 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 15:51:12,453 - GameOperation.py - INFO  - 窗口句柄: 396336 游戏中...
+2023-10-07 15:51:30,096 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 15:51:30,116 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 15:51:30,246 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:51:30,246 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:51:30,267 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 15:51:30,356 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:51:30,356 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:51:30,356 - SubProcess.py    - INFO  - 线程: 32576 运行中...
+2023-10-07 15:51:30,566 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 15:51:30,566 - GameOperation.py - INFO  - 窗口句柄: 396336 游戏中...
+2023-10-07 15:52:20,546 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 15:52:20,566 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 15:52:20,706 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:52:20,706 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:52:20,716 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 15:52:20,816 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:52:20,816 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:52:20,816 - SubProcess.py    - INFO  - 线程: 35200 运行中...
+2023-10-07 15:52:21,026 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 15:52:21,026 - GameOperation.py - INFO  - 窗口句柄: 396336 游戏中...
+2023-10-07 15:53:18,806 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 15:53:18,826 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 15:53:18,976 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:53:18,976 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:53:18,996 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 15:53:19,086 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:53:19,086 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:53:19,086 - SubProcess.py    - INFO  - 线程: 34568 运行中...
+2023-10-07 15:53:19,304 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 15:53:19,304 - GameOperation.py - INFO  - 窗口句柄: 396336 游戏中...
+2023-10-07 15:53:42,586 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 15:53:42,606 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 15:53:42,742 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:53:42,742 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:53:42,758 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 15:53:42,846 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:53:42,846 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:53:42,846 - SubProcess.py    - INFO  - 线程: 34604 运行中...
+2023-10-07 15:53:43,054 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 15:53:43,054 - GameOperation.py - INFO  - 窗口句柄: 396336 游戏中...
+2023-10-07 15:59:09,987 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 15:59:10,006 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 15:59:10,136 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:59:10,136 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:59:10,160 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 15:59:10,246 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:59:10,246 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:59:10,246 - SubProcess.py    - INFO  - 线程: 22276 运行中...
+2023-10-07 15:59:10,456 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 15:59:10,456 - GameOperation.py - INFO  - 窗口句柄: 396336 游戏中...
+2023-10-07 15:59:22,990 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 15:59:23,007 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 15:59:23,146 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:59:23,146 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:59:23,161 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 15:59:23,246 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:59:23,246 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:59:23,246 - SubProcess.py    - INFO  - 线程: 21072 运行中...
+2023-10-07 15:59:23,456 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 15:59:23,456 - GameOperation.py - INFO  - 窗口句柄: 396336 游戏中...
+2023-10-07 15:59:47,666 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 15:59:47,686 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 15:59:47,816 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:59:47,816 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:59:47,836 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 15:59:47,918 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 15:59:47,918 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 15:59:47,918 - SubProcess.py    - INFO  - 线程: 32976 运行中...
+2023-10-07 15:59:48,134 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 15:59:48,134 - GameOperation.py - INFO  - 窗口句柄: 396336 游戏中...
+2023-10-07 16:08:50,228 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 16:08:50,255 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 16:08:50,387 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:08:50,387 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:08:50,411 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 16:08:50,491 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:08:50,491 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:08:50,491 - SubProcess.py    - INFO  - 线程: 36720 运行中...
+2023-10-07 16:08:50,709 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 16:08:50,709 - GameOperation.py - INFO  - 窗口句柄: 1247014 游戏中...
+2023-10-07 16:10:21,137 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 16:10:21,157 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 16:10:21,297 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:10:21,297 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:10:21,317 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 16:10:21,407 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:10:21,407 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:10:21,407 - SubProcess.py    - INFO  - 线程: 28920 运行中...
+2023-10-07 16:10:21,622 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 16:10:21,622 - GameOperation.py - INFO  - 窗口句柄: 1247014 游戏中...
+2023-10-07 16:10:37,377 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 16:10:37,397 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 16:10:37,527 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:10:37,527 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:10:37,547 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 16:10:37,637 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:10:37,637 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:10:37,637 - SubProcess.py    - INFO  - 线程: 27264 运行中...
+2023-10-07 16:10:37,853 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 16:10:37,853 - GameOperation.py - INFO  - 窗口句柄: 1247014 游戏中...
+2023-10-07 16:13:48,287 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 16:13:48,307 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 16:13:48,447 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:13:48,447 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:13:48,467 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 16:13:48,547 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:13:48,557 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:13:48,557 - SubProcess.py    - INFO  - 线程: 35348 运行中...
+2023-10-07 16:13:48,762 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 16:13:48,762 - GameOperation.py - INFO  - 窗口句柄: 1247014 游戏中...
+2023-10-07 16:14:58,633 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 16:14:58,648 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 16:14:58,781 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:14:58,781 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:14:58,802 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 16:14:58,887 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:14:58,887 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:14:58,887 - SubProcess.py    - INFO  - 线程: 26244 运行中...
+2023-10-07 16:14:59,093 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 16:14:59,093 - GameOperation.py - INFO  - 窗口句柄: 1247014 游戏中...
+2023-10-07 16:17:07,667 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 16:17:07,687 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 16:17:07,821 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:17:07,821 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:17:07,837 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 16:17:07,927 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:17:07,927 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:17:07,927 - SubProcess.py    - INFO  - 线程: 21980 运行中...
+2023-10-07 16:17:08,137 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 16:17:08,137 - GameOperation.py - INFO  - 窗口句柄: 458880 游戏中...
+2023-10-07 16:18:03,197 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 16:18:03,224 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 16:18:03,361 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:18:03,361 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:18:03,382 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 16:18:03,473 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:18:03,475 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:18:03,475 - SubProcess.py    - INFO  - 线程: 32984 运行中...
+2023-10-07 16:18:03,681 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 16:18:03,681 - GameOperation.py - INFO  - 窗口句柄: 458880 游戏中...
+2023-10-07 16:22:01,967 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 16:22:01,987 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 16:22:02,127 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:22:02,127 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:22:02,150 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 16:22:02,229 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:22:02,237 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:22:02,237 - SubProcess.py    - INFO  - 线程: 31156 运行中...
+2023-10-07 16:22:02,445 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 16:22:02,445 - GameOperation.py - INFO  - 窗口句柄: 527634 游戏中...
+2023-10-07 16:24:40,508 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 16:24:40,522 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 16:24:40,667 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:24:40,667 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:24:40,688 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 16:24:40,767 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:24:40,767 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:24:40,767 - SubProcess.py    - INFO  - 线程: 18860 运行中...
+2023-10-07 16:24:40,986 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 16:24:40,986 - GameOperation.py - INFO  - 窗口句柄: 659458 游戏中...
+2023-10-07 16:25:53,626 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 16:25:53,642 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 16:25:53,778 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:25:53,778 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:25:53,798 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 16:25:53,881 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:25:53,881 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:25:53,881 - SubProcess.py    - INFO  - 线程: 19000 运行中...
+2023-10-07 16:25:54,097 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 16:25:54,097 - GameOperation.py - INFO  - 窗口句柄: 658540 游戏中...
+2023-10-07 16:26:52,888 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 16:26:52,913 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 16:26:53,048 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:26:53,048 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:27:27,728 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 16:27:27,748 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 16:27:27,869 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:27:27,869 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:27:44,038 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 16:27:44,062 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 16:27:44,188 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:27:44,188 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:27:59,328 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 16:27:59,348 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 16:27:59,478 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:27:59,478 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:28:41,658 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 16:28:41,745 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:28:41,748 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:28:41,748 - SubProcess.py    - INFO  - 线程: 12800 运行中...
+2023-10-07 16:28:41,953 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 16:28:41,953 - GameOperation.py - INFO  - 窗口句柄: 725280 游戏中...
+2023-10-07 16:30:53,141 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 16:30:53,163 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 16:30:53,298 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:30:53,298 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:31:08,038 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 16:31:08,123 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:31:08,123 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:31:08,124 - SubProcess.py    - INFO  - 线程: 30012 运行中...
+2023-10-07 16:31:08,333 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 16:31:08,333 - GameOperation.py - INFO  - 窗口句柄: 1379728 游戏中...
+2023-10-07 16:32:19,532 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 16:32:19,549 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 16:32:19,678 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:32:19,678 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:32:22,438 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 16:32:22,520 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:32:22,520 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:32:22,520 - SubProcess.py    - INFO  - 线程: 35336 运行中...
+2023-10-07 16:32:22,732 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 16:32:22,732 - GameOperation.py - INFO  - 窗口句柄: 987202 游戏中...
+2023-10-07 16:32:50,858 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 16:32:50,870 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 16:32:51,013 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:32:51,013 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:32:52,978 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 16:32:53,065 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:32:53,065 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:32:53,065 - SubProcess.py    - INFO  - 线程: 18840 运行中...
+2023-10-07 16:32:53,277 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 16:32:53,278 - GameOperation.py - INFO  - 窗口句柄: 987202 游戏中...
+2023-10-07 16:33:14,088 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 16:33:14,108 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 16:33:14,238 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:33:14,238 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:33:15,998 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 16:33:16,078 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:33:16,078 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:33:16,078 - SubProcess.py    - INFO  - 线程: 34824 运行中...
+2023-10-07 16:33:16,289 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 16:33:16,289 - GameOperation.py - INFO  - 窗口句柄: 987202 游戏中...
+2023-10-07 16:35:48,758 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 16:35:48,787 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 16:35:48,928 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:35:48,928 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:35:55,906 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 16:35:56,010 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:35:56,010 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:35:56,010 - SubProcess.py    - INFO  - 线程: 36940 运行中...
+2023-10-07 16:35:56,226 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 16:35:56,226 - GameOperation.py - INFO  - 窗口句柄: 201544 游戏中...
+2023-10-07 16:38:36,716 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 16:38:36,735 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 16:38:36,893 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:38:36,893 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:38:39,003 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 16:38:39,120 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:38:39,120 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:38:39,121 - SubProcess.py    - INFO  - 线程: 18144 运行中...
+2023-10-07 16:38:39,332 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 16:38:39,333 - GameOperation.py - INFO  - 窗口句柄: 1249916 游戏中...
+2023-10-07 16:39:01,581 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 16:39:01,603 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 16:39:01,755 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:39:01,755 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:39:16,830 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 16:39:16,937 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:39:16,937 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:39:16,937 - SubProcess.py    - INFO  - 线程: 37020 运行中...
+2023-10-07 16:39:17,142 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 16:39:17,142 - GameOperation.py - INFO  - 窗口句柄: 1249916 游戏中...
+2023-10-07 16:44:22,798 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 16:44:22,818 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 16:44:22,969 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:44:22,969 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:44:22,972 - MainProcess.py   - INFO  - 枚举窗口 hwnd: 1051918 成功
+2023-10-07 16:44:22,989 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 16:44:23,078 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:44:23,078 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:44:23,078 - SubProcess.py    - INFO  - 线程: 3372 运行中...
+2023-10-07 16:44:23,296 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 16:44:23,296 - GameOperation.py - INFO  - 窗口句柄: 1051918 游戏中...
+2023-10-07 16:45:05,984 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 16:45:06,004 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 16:45:06,163 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:45:06,163 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:45:06,165 - MainProcess.py   - INFO  - 枚举窗口 hwnd: 1051918 成功
+2023-10-07 16:45:06,182 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 16:45:06,281 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:45:06,281 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:45:06,281 - SubProcess.py    - INFO  - 线程: 36840 运行中...
+2023-10-07 16:45:06,495 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 16:45:06,495 - GameOperation.py - INFO  - 窗口句柄: 1051918 游戏中...
+2023-10-07 16:45:57,135 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 16:45:57,136 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 16:45:57,272 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:45:57,273 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:45:57,275 - MainProcess.py   - INFO  - 枚举窗口 hwnd: 1051918 成功
+2023-10-07 16:45:57,289 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 16:45:57,385 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:45:57,386 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:45:57,386 - SubProcess.py    - INFO  - 线程: 24652 运行中...
+2023-10-07 16:45:57,600 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 16:45:57,600 - GameOperation.py - INFO  - 窗口句柄: 1051918 游戏中...
+2023-10-07 16:47:20,899 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 16:47:20,899 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 16:47:21,042 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:47:21,044 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:47:21,045 - MainProcess.py   - INFO  - 枚举窗口 hwnd: 1966376 成功
+2023-10-07 16:47:21,064 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 16:47:21,159 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:47:21,159 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:47:21,159 - SubProcess.py    - INFO  - 线程: 10604 运行中...
+2023-10-07 16:47:21,364 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 16:47:21,364 - GameOperation.py - INFO  - 窗口句柄: 1966376 游戏中...
+2023-10-07 16:48:53,911 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 16:48:53,912 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 16:48:54,075 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:48:54,076 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:48:54,077 - MainProcess.py   - INFO  - 枚举窗口 hwnd: 856502 成功
+2023-10-07 16:48:54,091 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 16:48:54,201 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 16:48:54,201 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 16:48:54,202 - SubProcess.py    - INFO  - 线程: 23720 运行中...
+2023-10-07 16:48:54,404 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 16:48:54,404 - GameOperation.py - INFO  - 窗口句柄: 856502 游戏中...
+2023-10-07 17:26:52,758 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 17:26:52,782 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 17:26:52,916 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 17:26:52,916 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 17:26:52,924 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 17:26:52,997 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 17:26:52,997 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 17:26:52,997 - SubProcess.py    - INFO  - 线程: 3888 运行中...
+2023-10-07 17:26:53,206 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 17:26:53,206 - GameOperation.py - INFO  - 窗口句柄: 132138 游戏中...
+2023-10-07 17:27:25,962 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 17:27:25,970 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 17:27:26,066 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 17:27:26,066 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 17:27:26,074 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 17:27:26,138 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 17:27:26,138 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 17:27:26,138 - SubProcess.py    - INFO  - 线程: 11160 运行中...
+2023-10-07 17:27:26,354 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 17:27:26,354 - GameOperation.py - INFO  - 窗口句柄: 67536 游戏中...
+2023-10-07 17:27:54,581 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 17:27:54,597 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 17:27:54,718 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 17:27:54,718 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 17:27:54,734 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 17:27:54,838 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 17:27:54,838 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 17:27:54,838 - SubProcess.py    - INFO  - 线程: 12512 运行中...
+2023-10-07 17:27:55,048 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 17:27:55,048 - GameOperation.py - INFO  - 窗口句柄: 67536 游戏中...
+2023-10-07 17:28:13,592 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 17:28:13,608 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 17:28:13,738 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 17:28:13,738 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 17:28:13,762 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 17:28:13,851 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 17:28:13,851 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 17:28:13,851 - SubProcess.py    - INFO  - 线程: 3916 运行中...
+2023-10-07 17:28:14,061 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 17:28:14,061 - GameOperation.py - INFO  - 窗口句柄: 67536 游戏中...
+2023-10-07 17:28:47,374 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 17:28:47,398 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 17:28:47,520 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 17:28:47,520 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 17:28:47,544 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 17:28:47,633 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 17:28:47,633 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 17:28:47,633 - SubProcess.py    - INFO  - 线程: 14600 运行中...
+2023-10-07 17:28:47,844 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 17:28:47,844 - GameOperation.py - INFO  - 窗口句柄: 132138 游戏中...
+2023-10-07 17:29:11,698 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 17:29:11,699 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 17:29:11,831 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 17:29:11,831 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 17:29:11,853 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 17:29:11,944 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 17:29:11,944 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 17:29:11,944 - SubProcess.py    - INFO  - 线程: 11696 运行中...
+2023-10-07 17:29:12,154 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 17:29:12,155 - GameOperation.py - INFO  - 窗口句柄: 132138 游戏中...
+2023-10-07 17:29:21,996 - Log.py           - INFO  - 日志路径: C:\Users\Administrator\PycharmProjects\moonlight\logs
+2023-10-07 17:29:21,997 - MainProcess.py   - INFO  - 启动 1 个线程...
+2023-10-07 17:29:22,139 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 17:29:22,139 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 17:29:22,156 - SubProcess.py    - INFO  - 初始化线程op对象
+2023-10-07 17:29:22,261 - OpTool.py        - INFO  - 0.4.2.0
+2023-10-07 17:29:22,261 - OpTool.py        - INFO  - C:\Users\Administrator\PycharmProjects\moonlight\resources
+2023-10-07 17:29:22,261 - SubProcess.py    - INFO  - 线程: 10992 运行中...
+2023-10-07 17:29:22,477 - SubProcess.py    - INFO  - 绑定成功
+2023-10-07 17:29:22,477 - GameOperation.py - INFO  - 窗口句柄: 132138 游戏中...

@@ -1,0 +1,33 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+"""
+File: GameOpration.py
+Author: 吉姆哥
+Date: 2023/8/27
+Description: 游戏操作
+"""
+import time
+
+from common.Container import Container
+from plugin.Action import Action
+from resources import Desc
+from resources.Desc import desc
+
+
+# 这个文件加密后运行始终有问题，怀疑是lamdba表达式被cython编译有问题
+
+class GameOperation:
+
+    def __init__(self):
+        self.log = Container.get('Log')
+        Container.set('GameOperation', self)
+
+    def gameOpration(self, threadDict, threadIndex):
+        opWapper = threadDict['op']
+        self.log.info('窗口句柄: %s 游戏中...' % threadDict['bindHwnd'])
+        task = [
+            Action(desc['最近']).click()
+        ]
+        opWapper.run(task)
+
