@@ -24,8 +24,12 @@ class OpWrapper:
     def bindWindow(self, *args):
         return self.op.BindWindow(*args)
 
-    def run(self, actionList):
+    # 循环次数
+    def run(self, actionList, times=0):
+        runTime = 0
         while True:
+            if times != 0 and runTime >= times:
+                return
             for action in actionList:
                 findPicRet = None
                 if action.argsArr:
@@ -76,7 +80,11 @@ class OpWrapper:
                         else:
                             # 执行lambda函数
                             method[0](*method[1], **method[2])
+                        # 同一个action中两个method的间隔时间，默认0.3s
+                        time.sleep(action.intervalTime)
                 time.sleep(1)
+            if times:
+                runTime += 1
 
 
 

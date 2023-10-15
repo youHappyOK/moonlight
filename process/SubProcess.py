@@ -35,26 +35,24 @@ class SubProcess:
         threadDict['bindHwnd'] = bindHwnd
         gameOperation = Container.get('GameOperation')
         threadDict['process'] = '绑定窗口'
-        while True:
-            log.info('线程: %s 运行中...' % threading.currentThread().ident)
-            if threadDict['process'] == '绑定窗口':
-                if bindHwnd:
-                    # 绑定窗口，不知道为啥，虚拟机只能用前台模式绑定
-                    bindRet = opWrapper.bindWindow(bindHwnd, 'normal', 'normal', 'normal', 1)
-                    # bindRet = opWrapper.bindWindow(bindHwnd, 'dx.d3d11', 'windows', 'windows', 1)
-                    if bindRet:
-                        log.info('绑定成功')
-                        threadDict['process'] = '游戏操作'
-                        # 线程易键鼠对象
-                        ret = self.getWindowPixels(op, bindHwnd)
-                        vid = int('A001', 16) + threadIndex
-                        pid = int('0001', 16) + threadIndex
-                        yjsInput = YjsInputTool(vid, pid, ret[3] - ret[1], ret[4] - ret[2])
-                        threadDict['op'].setYjsInput(yjsInput)
-                    else:
-                        log.error('绑定失败')
-            if threadDict['process'] == '游戏操作':
-                gameOperation.gameOpration(threadDict, threadIndex)
+        log.info('线程: %s 运行中...' % threading.currentThread().ident)
+        if threadDict['process'] == '绑定窗口':
+            if bindHwnd:
+                # 绑定窗口，不知道为啥，虚拟机只能用前台模式绑定
+                bindRet = opWrapper.bindWindow(bindHwnd, 'normal', 'normal', 'normal', 1)
+                if bindRet:
+                    log.info('绑定成功')
+                    threadDict['process'] = '游戏操作'
+                    # 线程易键鼠对象
+                    ret = self.getWindowPixels(op, bindHwnd)
+                    vid = int('A001', 16) + threadIndex
+                    pid = int('0001', 16) + threadIndex
+                    yjsInput = YjsInputTool(vid, pid, ret[3] - ret[1], ret[4] - ret[2])
+                    threadDict['op'].setYjsInput(yjsInput)
+                else:
+                    log.error('绑定失败')
+        if threadDict['process'] == '游戏操作':
+            gameOperation.gameOpration(threadDict, threadIndex)
 
 
     # 获取屏幕分辨率

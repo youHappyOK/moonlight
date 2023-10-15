@@ -28,10 +28,10 @@ class GameOperation:
         self.log.info('窗口句柄: %s 游戏中...' % threadDict['bindHwnd'])
         task = [
             Action(desc['文本图标']).func(lambda: print('找到文本图标')).offset(3, 0).leftDoubleClick()
-            .keyPressStr('so nvidia fuck you\n').sleep(1),
+            .keyPressStr('so nvidia fuck you\n').interval(1),
             # Action(desc['文本图标关闭']).func(lambda: print('找到文本图标关闭')).click().exit(),
             Action(None).click(729, 14),
             Action(None).click(661, 378),
         ]
-        opWapper.run(task)
+        opWapper.run(task, times=0)
 

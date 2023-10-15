@@ -16,6 +16,7 @@ class Action:
         self.argsArr = argsArr
         self.methods = []
         self.point = None
+        self.intervalTime = 0.3
 
     # 自定义函数
     def func(self, method, *args, **kwargs):
@@ -37,6 +38,10 @@ class Action:
         self.methods.append(('sleep', args, None))
         return self
 
+    def interval(self, time):
+        self.intervalTime = time
+        return self
+
     # 点击和移动偏移量像素
     # 传参
     # offset int 偏移像素(是一个范围[-offset, offset])
@@ -52,6 +57,7 @@ class Action:
     def exit(self):
         self.methods.append(('退出', None, None))
         return self
+
 
 
         
