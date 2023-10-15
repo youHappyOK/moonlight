@@ -126,5 +126,5 @@ def capture_vmware_window(hwnd):
     return image
 
 if __name__ == '__main__':
-    image = capture_vmware_window(395780)
+    image = capture_vmware_window(135316)
     pyautogui.imshow(image)  # 显示截图结果

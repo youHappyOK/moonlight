@@ -16,6 +16,10 @@ class OpWrapper:
 
     def __init__(self, op):
         self.op = op
+        self.yjsInput = None
+
+    def setYjsInput(self, yjsInput):
+        self.yjsInput = yjsInput
 
     def bindWindow(self, *args):
         return self.op.BindWindow(*args)
@@ -23,12 +27,12 @@ class OpWrapper:
     def run(self, actionList):
         while True:
             for action in actionList:
-                # todo 支持找图
-                findPicRet = self.op.FindPic(*action.argsArr, 0, 0)
-                # self.op.Capture(0,0,2000,2000,'2k缩放175不设置兼容性.bmp')
-                # 如果找图找到了
-                if not findPicRet[0] == -1 and not findPicRet[1] == -1 and not findPicRet[2] == -1:
+                findPicRet = None
+                if action.argsArr:
+                    findPicRet = self.op.FindPic(*action.argsArr, 0, 0)
                     action.point = Point(findPicRet[1], findPicRet[2])
+                # 没有传argsArr或者找图找到了
+                if not action.argsArr or (not findPicRet[0] == -1 and not findPicRet[1] == -1 and not findPicRet[2] == -1):
                     # 按顺序执行里面的每个方法
                     for method in action.methods:
                         methodName = method[0]
@@ -39,15 +43,26 @@ class OpWrapper:
                         if type(methodName) == str:
                             # 判断method传的是否为字符串，如果为字符串，说明是op的方法
                             if methodName == 'LeftClick':
-                                self.op.MoveTo(action.point.x, action.point.y)
-                                self.op.LeftClick()
+                                # # op写法
+                                # self.op.MoveTo(action.point.x, action.point.y)
+                                # self.op.LeftClick()
+                                if not methodArgs:
+                                    self.yjsInput.moveTo(action.point.x, action.point.y)
+                                else:
+                                    self.yjsInput.moveTo(methodArgs[0], methodArgs[1])
+                                self.yjsInput.leftClick()
+                            if methodName == 'LeftDoubleClick':
+                                self.yjsInput.moveTo(action.point.x, action.point.y)
+                                self.yjsInput.leftDoubleClick()
+                            if methodName == 'KeyPressStr':
+                                self.yjsInput.KeyPressStr(*methodArgs)
                             if methodName == 'sleep':
                                 # 这里要加*的原因是methodArgs是一个元组，而time.sleep的参数是一个参数
                                 # 所以，要通过*将元组的所有元素作为可变参数传进去
                                 time.sleep(*methodArgs)
                             if methodName == 'offset':
-                                offset = method[0]
-                                offsetType = method[1]
+                                offset = methodArgs[0]
+                                offsetType = methodArgs[1]
                                 if offsetType == 0:
                                     # 点击偏移
                                     randOffset = random.randint(-offset, offset)
@@ -61,7 +76,7 @@ class OpWrapper:
                         else:
                             # 执行lambda函数
                             method[0](*method[1], **method[2])
-                time.sleep(10)
+                time.sleep(1)
 
 
 

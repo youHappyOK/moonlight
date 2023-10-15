@@ -19,7 +19,7 @@ from common.Container import Container
 class YjsInputTool:
 
     # 初始化易建鼠dll
-    def __init__(self, vid, pid):
+    def __init__(self, vid, pid, width, high):
         baseDir = ''
         if getattr(sys, 'frozen', None):
             baseDir = sys._MEIPASS
@@ -32,11 +32,10 @@ class YjsInputTool:
         # 打开易键鼠盒子
         self.hdl = self.objDll.M_Open_VidPid(vid, pid)
         # 输入被控机的屏幕分辨率
-        ret = self.objDll.M_ResolutionUsed(self.hdl, 1920, 1080)
-        print(ret)
+        self.objDll.M_ResolutionUsed(self.hdl, width, high)
 
-    def KeyPressStr(self, str_: str):
-        bt_str = str_.encode(encoding="gbk")
+    def KeyPressStr(self, str: str):
+        bt_str = str.encode(encoding="gbk")
         len_ = len(bt_str)
         p_str = ctypes.c_char_p(bt_str)
         self.objDll.M_KeyInputStringGBK(self.hdl, p_str, len_)

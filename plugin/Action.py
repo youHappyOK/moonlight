@@ -23,9 +23,13 @@ class Action:
         self.methods.append((method, args, kwargs))
         return self
 
-    # 调用op的左键
+    # 左键单击
     def click(self, *args):
         self.methods.append(('LeftClick', args, None))
+        return self
+
+    def leftDoubleClick(self, *args):
+        self.methods.append(('LeftDoubleClick', args, None))
         return self
 
     # 操作间sleep
@@ -40,6 +44,15 @@ class Action:
     def offset(self, *args):
         self.methods.append(('offset', args, None))
         return self
+
+    def keyPressStr(self, *args):
+        self.methods.append(('KeyPressStr', args, None))
+        return self
+
+    def exit(self):
+        self.methods.append(('退出', None, None))
+        return self
+
 
         
 
