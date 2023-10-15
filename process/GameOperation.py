@@ -27,7 +27,9 @@ class GameOperation:
         opWapper = threadDict['op']
         self.log.info('窗口句柄: %s 游戏中...' % threadDict['bindHwnd'])
         task = [
-            Action(desc['最近']).click()
+            Action(desc['最近']).click().func(lambda: print('so nvidia fuck you, sleep5...'))
+            .sleep(5)
+            .func(lambda: self.log.info('so nvidia fuck you log'))
         ]
         opWapper.run(task)
 

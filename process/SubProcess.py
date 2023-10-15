@@ -27,6 +27,7 @@ class SubProcess:
         log = Container.get('Log')
         log.info('初始化线程op对象')
         op = OpTool.getOpObj()
+        # 线程op对象
         opWrapper = OpWrapper(op)
         threadDict = Container.get('ThreadGroup').getThread(threadIndex)
         threadDict['op'] = opWrapper
@@ -38,8 +39,8 @@ class SubProcess:
             if threadDict['process'] == '绑定窗口':
                 if bindHwnd:
                     # 绑定窗口，不知道为啥，虚拟机只能用前台模式绑定
-                    bindRet = opWrapper.bindWindow(bindHwnd, 'gdi', 'windows', 'windows', 1)
-                    # bindRet = opWrapper.bindWindow(bindHwnd, 'normal', 'normal', 'normal', 1)
+                    bindRet = opWrapper.bindWindow(bindHwnd, 'normal', 'normal', 'normal', 1)
+                    # bindRet = opWrapper.bindWindow(bindHwnd, 'dx.d3d11', 'windows', 'windows', 1)
                     if bindRet:
                         log.info('绑定成功')
                         threadDict['process'] = '游戏操作'

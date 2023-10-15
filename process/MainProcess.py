@@ -55,6 +55,8 @@ class MainProcess:
         #         log.info('枚举窗口 hwnd: %s 成功' % hwnd4)
         #         unbindHwnds.append(hwnd4)
         # return unbindHwnds
+
+
         unbindHwnds = []
         OpTool.initOp()
         op = OpTool.getOpObj()
