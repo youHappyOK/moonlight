@@ -7,6 +7,7 @@ from common.ThreadGroup import ThreadGroup
 from process.GameOperation import GameOperation
 from process.MainProcess import MainProcess
 from process.SubProcess import SubProcess
+from repository.ConfigLoader import ConfigLoader
 
 
 class App:
@@ -18,9 +19,12 @@ class App:
         GameOperation()
         SubProcess()
         MainProcess()
+        ConfigLoader()
 
 
 if __name__ == '__main__':
     app = App()
+    configLoader = Container.get('ConfigLoader')
+    configLoader.loadAllConfig()
     mainProcess = Container.get('MainProcess')
     mainProcess.runMainProcess()
