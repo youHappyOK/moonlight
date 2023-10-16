@@ -6,8 +6,6 @@
     @date：2023/10/7 9:50
     @desc: 
 """
-from functools import partial
-from plugin.Point import Point
 
 
 class Action:
