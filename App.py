@@ -15,16 +15,15 @@ class App:
     def __init__(self):
         # 放到 ioc 容器中
         Log()
+        configLoader = ConfigLoader()
+        configLoader.loadAllConfig()
         ThreadGroup()
         GameOperation()
         SubProcess()
         MainProcess()
-        ConfigLoader()
 
 
 if __name__ == '__main__':
     app = App()
-    configLoader = Container.get('ConfigLoader')
-    configLoader.loadAllConfig()
     mainProcess = Container.get('MainProcess')
     mainProcess.runMainProcess()

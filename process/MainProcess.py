@@ -27,7 +27,7 @@ class MainProcess:
     def runThread(self):
         subProcess = Container.get("SubProcess")
         # 多开数量
-        threadNum = 2
+        threadNum = 1
         # 启动延迟(默认10秒)
         self.threadGroup.delaySecond = 10
         self.log.info('启动 %s 个线程...' % threadNum)
@@ -41,27 +41,27 @@ class MainProcess:
         self.threadGroup.startAll()
 
     def findUnbindWindows(self):
-        unbindHwnds = []
-        log = Container.get('Log')
-        OpTool.initOp()
-        op = OpTool.getOpObj()
-        hwnd0 = op.EnumWindow(0, '', 'VMPlayerFrame', 2)
-        if hwnd0 != '':
-            for hwnd1 in hwnd0.split(','):
-                hwnd2 = op.EnumWindow(hwnd1, '', 'VMWindow', 2)
-                hwnd3 = op.EnumWindow(hwnd2, '', 'VMPlayerGuest', 2)
-                hwnd4 = op.EnumWindow(hwnd3, 'MKSWindow#0', 'MKSEmbedded', 1 + 2)
-                # 将未绑定的句柄放到unbindHwnds中
-                log.info('枚举窗口 hwnd: %s 成功' % hwnd4)
-                unbindHwnds.append(hwnd4)
-        return unbindHwnds
-
-
         # unbindHwnds = []
+        # log = Container.get('Log')
         # OpTool.initOp()
         # op = OpTool.getOpObj()
-        # hwnd0 = op.EnumWindow(0, '', 'OpusApp', 2)
+        # hwnd0 = op.EnumWindow(0, '', 'VMPlayerFrame', 2)
         # if hwnd0 != '':
         #     for hwnd1 in hwnd0.split(','):
-        #         unbindHwnds.append(hwnd1)
+        #         hwnd2 = op.EnumWindow(hwnd1, '', 'VMWindow', 2)
+        #         hwnd3 = op.EnumWindow(hwnd2, '', 'VMPlayerGuest', 2)
+        #         hwnd4 = op.EnumWindow(hwnd3, 'MKSWindow#0', 'MKSEmbedded', 1 + 2)
+        #         # 将未绑定的句柄放到unbindHwnds中
+        #         log.info('枚举窗口 hwnd: %s 成功' % hwnd4)
+        #         unbindHwnds.append(hwnd4)
         # return unbindHwnds
+
+
+        unbindHwnds = []
+        OpTool.initOp()
+        op = OpTool.getOpObj()
+        hwnd0 = op.EnumWindow(0, 'WPS Office', 'OpusApp', 1+2)
+        if hwnd0 != '':
+            for hwnd1 in hwnd0.split(','):
+                unbindHwnds.append(hwnd1)
+        return unbindHwnds

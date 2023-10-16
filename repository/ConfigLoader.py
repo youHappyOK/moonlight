@@ -31,6 +31,10 @@ class ConfigLoader:
                 key, value = line.split('=', 1)
                 key = key.strip()
                 value = value.strip()
+                if value == 'True':
+                    value = True
+                else:
+                    value = False
 
                 # 如果key对应的属性存在于config_obj中，则将value赋给这个属性
                 if hasattr(configObj, key):

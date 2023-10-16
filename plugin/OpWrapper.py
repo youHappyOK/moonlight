@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
     @Author：吉姆哥儿
-    @file： MyOp.py
+    @file： OpWrapper.py
     @date：2023/10/7 14:13
     @desc: 
 """
@@ -28,16 +28,19 @@ class OpWrapper:
 
     # 循环执行
     def run(self, actionList, times=0):
+        breakFlag = {'exit': False}
         runTime = 0
         while True:
+            if breakFlag['exit']:
+                break
             if times != 0 and runTime >= times:
                 return
-            self.runOnce(actionList)
+            self.runOnce(actionList, breakFlag)
             if times:
                 runTime += 1
 
     # 只执行一次
-    def runOnce(self, actionList):
+    def runOnce(self, actionList, breakFlag):
         for action in actionList:
             findPicRet = None
             if action.argsArr:
@@ -59,7 +62,7 @@ class OpWrapper:
                                 self.moveTo(action.point.x, action.point.y)
                             else:
                                 self.moveTo(methodArgs[0], methodArgs[1])
-                            self.yjsInput.leftClick()
+                            self.leftClick()
                         if methodName == 'LeftDoubleClick':
                             self.moveTo(action.point.x, action.point.y)
                             self.leftDoubleClick()
@@ -81,12 +84,15 @@ class OpWrapper:
                                 # 滑动偏移
                                 pass
                         if methodName == '退出':
+                            breakFlag['exit'] = True
                             break
                     else:
                         # 执行lambda函数
                         method[0](*method[1], **method[2])
                     # 同一个action中两个method的间隔时间，默认0.3s
                     time.sleep(action.intervalTime)
+                if breakFlag['exit']:
+                    break
             time.sleep(1)
 
     def moveTo(self, x, y):
