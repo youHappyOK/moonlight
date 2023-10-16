@@ -7,11 +7,9 @@ Author: 吉姆哥
 Date: 2023/8/27
 Description: 游戏操作
 """
-import time
 
 from common.Container import Container
 from plugin.Action import Action
-from resources import Desc
 from resources.Desc import desc
 
 

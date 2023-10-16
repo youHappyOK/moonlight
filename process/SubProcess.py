@@ -7,15 +7,12 @@ Author: 吉姆哥
 Date: 2023/8/27
 Description: 每个线程的运行流程
 """
-import os
-import sys
 import threading
 
 from common.Container import *
 from common.OpTool import OpTool
-from common.YjsInputTool import YjsInputTool
+from input.YjsInputTool import YjsInputTool
 from plugin.OpWrapper import OpWrapper
-from process.GameOperation import GameOperation
 
 
 class SubProcess:
@@ -23,6 +20,7 @@ class SubProcess:
     def __init__(self):
         self.gameOpration = Container.get('GameOperation')
         Container.set('SubProcess', self)
+        self.applicationProperties = Container.get('ApplicationProperties')
 
     def runProcess(self, threadIndex: int, bindHwnd: int):
         log = Container.get('Log')
@@ -44,11 +42,12 @@ class SubProcess:
                     log.info('绑定成功')
                     threadDict['process'] = '游戏操作'
                     # 线程易键鼠对象
-                    ret = self.getWindowPixels(op, bindHwnd)
-                    vid = int('A001', 16) + threadIndex
-                    pid = int('0001', 16) + threadIndex
-                    yjsInput = YjsInputTool(vid, pid, ret[3] - ret[1], ret[4] - ret[2])
-                    threadDict['op'].setYjsInput(yjsInput)
+                    if self.applicationProperties.useYjs:
+                        ret = self.getWindowPixels(op, bindHwnd)
+                        vid = int('A001', 16) + threadIndex
+                        pid = int('0001', 16) + threadIndex
+                        yjsInput = YjsInputTool(vid, pid, ret[3] - ret[1], ret[4] - ret[2])
+                        threadDict['op'].setYjsInput(yjsInput)
                 else:
                     log.error('绑定失败')
         if threadDict['process'] == '游戏操作':

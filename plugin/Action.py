@@ -54,6 +54,11 @@ class Action:
         self.methods.append(('KeyPressStr', args, None))
         return self
 
+    # 按单个字符
+    def keyPressC(self, *args):
+        self.methods.append(('KeyPressChar', args, None))
+        return self
+
     def exit(self):
         self.methods.append(('退出', None, None))
         return self

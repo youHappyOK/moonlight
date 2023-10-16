@@ -32,7 +32,7 @@ yjsInputHidKeyCode = {
 
     "=": 46,
 
-    "backspace": 42,
+    "back": 42,
 
     "a": 4,
 
@@ -86,17 +86,17 @@ yjsInputHidKeyCode = {
 
     "z": 29,
 
-    "leftctrl": 224,
+    "ctrl": 224,
 
-    "leftalt": 226,
+    "alt": 226,
 
-    "leftshift": 225,
+    "shift": 225,
 
-    "leftwin": 227,
+    "win": 227,
 
     "space": 44,
 
-    "capslock": 57,
+    "cap": 57,
 
     "tab": 43,
 
@@ -116,7 +116,7 @@ yjsInputHidKeyCode = {
 
     "option": 79,
 
-    "printscreen": 70,
+    "print": 70,
 
     "delete": 76,
 
@@ -124,9 +124,9 @@ yjsInputHidKeyCode = {
 
     "end": 77,
 
-    "pageup": 75
-    ,
-    "pagedown": 78,
+    "pgup": 75,
+
+    "pgdn": 78,
 
     "f1": 58,
 

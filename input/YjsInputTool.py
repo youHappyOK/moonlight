@@ -12,8 +12,8 @@ import sys
 import time
 from ctypes import windll, wintypes
 
-from common import YjsInputHidKeyCode
-from common.Container import Container
+from input import YjsInputHidKeyCode
+
 
 # 一个线程持有一个YjsInputTool
 class YjsInputTool:
