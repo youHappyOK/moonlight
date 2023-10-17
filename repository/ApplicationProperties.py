@@ -11,4 +11,6 @@ class ApplicationProperties:
 
     def __init__(self):
         self.useYjs = False
+        self.findPicMethod = 'op'
+        self.useFrontShot = False
 

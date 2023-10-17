@@ -10,6 +10,7 @@ import time
 import random
 
 from common.Container import Container
+from cv.CvFind import CvFind
 from plugin.Point import Point
 
 
@@ -19,11 +20,14 @@ class OpWrapper:
         self.op = op
         self.yjsInput = None
         self.config = Container.get('ApplicationProperties')
+        self.bindWin = 0
+        self.cvFind = CvFind()
 
     def setYjsInput(self, yjsInput):
         self.yjsInput = yjsInput
 
     def bindWindow(self, *args):
+        self.bindWin = args[0]
         return self.op.BindWindow(*args)
 
     # 循环执行
@@ -44,10 +48,10 @@ class OpWrapper:
         for action in actionList:
             findPicRet = None
             if action.argsArr:
-                findPicRet = self.op.FindPic(*action.argsArr, 0, 0)
-                action.point = Point(findPicRet[1], findPicRet[2])
+                findPicRet = self.findPic(action)
             # 没有传argsArr或者找图找到了
             if not action.argsArr or (not findPicRet[0] == -1 and not findPicRet[1] == -1 and not findPicRet[2] == -1):
+                action.point = Point(findPicRet[1], findPicRet[2])
                 # 按顺序执行里面的每个方法
                 for method in action.methods:
                     methodName = method[0]
@@ -126,10 +130,21 @@ class OpWrapper:
         else:
             self.op.KeyPressChar(*args)
 
-
-
-
-
-
-
-
+    # 找图方法
+    def findPic(self, action):
+        if self.config.findPicMethod == 'op':
+            return self.op.FindPic(*action.argsArr, 0, 0)
+        if self.config.findPicMethod == 'opencv':
+            isFind, x, y = self.cvFind.findPicByTemplate(self.bindWin,
+                                                    action.argsArr[0],
+                                                    action.argsArr[1],
+                                                    action.argsArr[2],
+                                                    action.argsArr[3],
+                                                    action.argsArr[4],
+                                                    action.argsArr[6],
+                                                    False,
+                                                    self.config.useFrontShot)
+            if isFind:
+                return 1, x, y
+            else:
+                return -1, -1, -1

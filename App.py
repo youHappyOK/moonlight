@@ -4,6 +4,7 @@
 from common.Container import Container
 from common.Log import Log
 from common.ThreadGroup import ThreadGroup
+from cv.CvFind import CvFind
 from process.GameOperation import GameOperation
 from process.MainProcess import MainProcess
 from process.SubProcess import SubProcess
@@ -17,6 +18,7 @@ class App:
         Log()
         configLoader = ConfigLoader()
         configLoader.loadAllConfig()
+        CvFind()
         ThreadGroup()
         GameOperation()
         SubProcess()

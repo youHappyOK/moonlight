@@ -16,12 +16,12 @@ import win32gui
 import win32ui
 from PIL import ImageGrab
 
+from common.Container import Container
+
 
 class CvFind:
 
     def __init__(self):
-        # 这里改成实时截图
-        self.img = None
         # 这里修改为资源文件的路径
         baseDir = ''
         if getattr(sys, 'frozen', None):
@@ -29,6 +29,7 @@ class CvFind:
         else:
             baseDir = os.path.dirname(os.path.dirname(__file__))
         self.path = baseDir + '\\resources'
+        Container.set('CvFind', self)
 
     # 前端截图
     def capWinFront(self, hwnd):
@@ -119,7 +120,7 @@ class CvFind:
         minVal, maxVal, minLoc, maxLoc = cv2.minMaxLoc(result)
         # 过滤相似度
         if maxVal < sim:
-            return False, None, None
+            return False, -1, -1
         # loc 是一个包含两个数组的元组，其中第一个数组表示找到的匹配位置的行索引，第二个数组表示找到的匹配位置的列索引。
         # 在使用模板匹配时，loc 表示的是匹配位置矩形框的左上角坐标
         else:
@@ -138,4 +139,11 @@ class CvFind:
 
 if __name__ == '__main__':
     cvFind = CvFind()
-    isMatch, x, y = cvFind.findPicByTemplate(2559078, 34, 163, 501, 487, '最近.bmp', 0.9, True, True)
+    cvFind2 = Container.get('CvFind')
+    isMatch, x, y = cvFind2.findPicByTemplate(855716, 34, 163, 501, 487, '最近.bmp', 0.9, False, False)
+    print(str(isMatch) + ' ' + str(x) + ' ' + str(y))
+
+    # cvFind = CvFind()
+    # img = cvFind.capWinBackend(855716)
+    # cv2.imshow('123', img)
+    # cv2.waitKey(0)
