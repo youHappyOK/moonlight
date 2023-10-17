@@ -31,7 +31,6 @@ class GameOperation:
             # Action(None).click(661, 378),
             # Action(desc['文本图标关闭']).func(lambda: print('找到文本图标关闭')).click().exit(),
             Action(desc['最近']).click().exit(),
-
         ]
         opWapper.run(task, times=0)
 

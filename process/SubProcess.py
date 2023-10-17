@@ -37,8 +37,7 @@ class SubProcess:
         if threadDict['process'] == '绑定窗口':
             if bindHwnd:
                 # 绑定窗口，不知道为啥，虚拟机只能用前台模式绑定
-                # bindRet = opWrapper.bindWindow(bindHwnd, 'normal', 'normal', 'normal', 1)
-                bindRet = opWrapper.bindWindow(bindHwnd, 'gdi', 'windows', 'windows', 0)
+                bindRet = opWrapper.bindWindow(bindHwnd, 'normal', 'windows', 'windows', 0)
                 if bindRet:
                     log.info('绑定成功')
                     threadDict['process'] = '游戏操作'
@@ -51,6 +50,7 @@ class SubProcess:
                         threadDict['op'].setYjsInput(yjsInput)
                 else:
                     log.error('绑定失败')
+                threadDict['process'] = '游戏操作'
         if threadDict['process'] == '游戏操作':
             gameOperation.gameOpration(threadDict, threadIndex)
 
