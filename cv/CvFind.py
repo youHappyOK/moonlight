@@ -31,7 +31,7 @@ class CvFind:
         self.path = baseDir + '\\resources'
         Container.set('CvFind', self)
 
-    # 前端截图
+    # 前台截图
     def capWinFront(self, hwnd):
         # 获取窗口位置信息
         rect = win32gui.GetWindowRect(hwnd)
