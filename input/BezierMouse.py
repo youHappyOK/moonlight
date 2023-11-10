@@ -1,6 +1,7 @@
 import numpy as np
 import random
 
+# 根据起点和终点坐标生成贝塞尔曲线
 def generateBezierCurve(start_point, end_point):
     # Generate a random control point within certain constraints
     control_point_x = (start_point[0] + end_point[0]) / 2
