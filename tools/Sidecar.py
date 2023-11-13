@@ -73,6 +73,25 @@ def moveTo():
         sidecar.op.moveTo(x, y)
     return 'ok'
 
+@app.route('/click', methods=['POST'])
+def click():
+    # 接收处理json数据请求
+    data = json.loads(request.data)  # 将json字符串转为dict
+    times = data['times']
+    clickDirect = data['clickDirect']
+    if times == 1:
+        sidecar.op.
+    ret = sidecar.op.GetCursorPos()
+    startPoint = (ret[1], ret[2])
+    endPoint = (x, y)
+    print("current point %s" % str(startPoint))
+    print("moveTo x: %s, y:%s" % (x, y))
+    return 'ok'
+
+@app.route('/keyPress', method=['POST'])
+def keyPress():
+    data = json.loads(request.data)  # 将json字符串转为dict
+
 def calculateSpeedFactor(startPoint, endPoint):
     distance = ((endPoint[0] - startPoint[0]) ** 2 + (endPoint[1] - startPoint[1]) ** 2) ** 0.5
     if distance < 100:
