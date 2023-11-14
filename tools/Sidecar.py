@@ -1,11 +1,14 @@
 import logging
 import os
+import random
 import sys
 import time
 from ctypes import windll
+
 from flask import Flask, request, json
 from win32com.client import Dispatch
 from input.BezierMouse import BezireMouse
+from input.OpInputHidKeyCode import OpInputHidKeyCode
 
 
 class Sidecar:
@@ -45,6 +48,7 @@ log.disabled = True
 
 sidecar = Sidecar()
 
+# 鼠标移动
 @app.route('/moveTo', methods=['POST'])
 def moveTo():
     # 接收处理json数据请求
@@ -73,24 +77,44 @@ def moveTo():
         sidecar.op.moveTo(x, y)
     return 'ok'
 
+# 鼠标点击
 @app.route('/click', methods=['POST'])
 def click():
     # 接收处理json数据请求
-    data = json.loads(request.data)  # 将json字符串转为dict
+    data = json.loads(request.data)
     times = data['times']
-    clickDirect = data['clickDirect']
+    clickType = data['type']
     if times == 1:
-        sidecar.op.
-    ret = sidecar.op.GetCursorPos()
-    startPoint = (ret[1], ret[2])
-    endPoint = (x, y)
-    print("current point %s" % str(startPoint))
-    print("moveTo x: %s, y:%s" % (x, y))
-    return 'ok'
+        if clickType == 'left':
+            sidecar.op.LeftClick()
+        elif clickType == 'right':
+            sidecar.op.RightClick()
+    if times >= 2:
+        if clickType == 'left':
+            sidecar.op.LeftDoubleClick()
+        elif clickType == 'right':
+            sidecar.op.RightDoubleClick()
 
+
+# 键盘输入
 @app.route('/keyPress', method=['POST'])
 def keyPress():
-    data = json.loads(request.data)  # 将json字符串转为dict
+    # 将json字符串转为dict
+    data = json.loads(request.data)
+    key = data['key']
+    type = data['type']
+    if type == 'char':
+        sidecar.op.KeyPressChar(key)
+    if type == 'str':
+        for c in key:
+            # 生成0.1到0.4之间的随机数
+            randomSleepTime = random.uniform(0.1, 0.4)
+            # 休眠相应的时间
+            time.sleep(randomSleepTime)
+            sidecar.op.KeyPressChar(c)
+    else:
+        raise ValueError('Invalid type value: must be "char" or "str"')
+    return 'ok'
 
 def calculateSpeedFactor(startPoint, endPoint):
     distance = ((endPoint[0] - startPoint[0]) ** 2 + (endPoint[1] - startPoint[1]) ** 2) ** 0.5
