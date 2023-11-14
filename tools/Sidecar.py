@@ -8,7 +8,6 @@ from ctypes import windll
 from flask import Flask, request, json
 from win32com.client import Dispatch
 from input.BezierMouse import BezireMouse
-from input.OpInputHidKeyCode import OpInputHidKeyCode
 
 
 class Sidecar:
@@ -82,22 +81,22 @@ def moveTo():
 def click():
     # 接收处理json数据请求
     data = json.loads(request.data)
-    times = data['times']
+    times = int(data['times'])
     clickType = data['type']
     if times == 1:
         if clickType == 'left':
             sidecar.op.LeftClick()
         elif clickType == 'right':
             sidecar.op.RightClick()
-    if times >= 2:
+    elif times >= 2:
         if clickType == 'left':
             sidecar.op.LeftDoubleClick()
         elif clickType == 'right':
             sidecar.op.RightDoubleClick()
-
+    return 'ok'
 
 # 键盘输入
-@app.route('/keyPress', method=['POST'])
+@app.route('/keyPress', methods=['POST'])
 def keyPress():
     # 将json字符串转为dict
     data = json.loads(request.data)
@@ -105,10 +104,10 @@ def keyPress():
     type = data['type']
     if type == 'char':
         sidecar.op.KeyPressChar(key)
-    if type == 'str':
+    elif type == 'str':
         for c in key:
             # 生成0.1到0.4之间的随机数
-            randomSleepTime = random.uniform(0.1, 0.4)
+            randomSleepTime = random.uniform(0.1, 0.3)
             # 休眠相应的时间
             time.sleep(randomSleepTime)
             sidecar.op.KeyPressChar(c)
