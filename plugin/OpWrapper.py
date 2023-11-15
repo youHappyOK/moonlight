@@ -136,7 +136,7 @@ class OpWrapper:
             return self.op.FindPic(*action.argsArr, 0, 0)
         if self.config.findPicMethod == 'opencv':
             # 使用opencv截图时，窗口不能提前被op绑定
-            isFind, x, y = self.cvFind.findPicByTemplate(855716,
+            isFind, x, y = self.cvFind.findPicByTemplate(self.bindWin,
                                                     action.argsArr[0],
                                                     action.argsArr[1],
                                                     action.argsArr[2],
