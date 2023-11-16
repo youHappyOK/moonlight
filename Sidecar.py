@@ -48,6 +48,7 @@ log.disabled = True
 sidecar = Sidecar()
 
 # 鼠标移动
+# todo 正太分布
 @app.route('/moveTo', methods=['POST'])
 def moveTo():
     # 接收处理json数据请求
