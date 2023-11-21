@@ -11,6 +11,7 @@ import cv2
 import numpy as np
 
 
+# 高斯概率点击
 class ClickGaussian:
 
     @staticmethod
