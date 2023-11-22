@@ -106,7 +106,8 @@ class OpWrapper:
         if self.config.useYjs:
             self.yjsInput.moveTo(x, y)
         else:
-            self.op.MoveTo(x, y)
+            # self.op.MoveTo(x, y)
+            self.moveToWithCurve(x, y)
 
     # 带轨迹移动
     def moveToWithCurve(self, x, y):
