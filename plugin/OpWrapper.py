@@ -9,8 +9,10 @@
 import time
 import random
 
+from Sidecar import calculateSpeedFactor, customEase
 from common.Container import Container
 from cv.CvFind import CvFind
+from input.BezierMouse import BezireMouse
 from plugin.Point import Point
 
 
@@ -100,10 +102,30 @@ class OpWrapper:
             time.sleep(1)
 
     def moveTo(self, x, y):
+        # 易键鼠鼠标移动自带轨迹
         if self.config.useYjs:
             self.yjsInput.moveTo(x, y)
         else:
             self.op.MoveTo(x, y)
+
+    # 带轨迹移动
+    def moveToWithCurve(self, x, y):
+        # 当前坐标
+        ret = self.op.GetCursorPos()
+        startPoint = (ret[1], ret[2])
+        endPoint = (x, y)
+        # print("current point %s" % str(startPoint))
+        # print("moveTo x: %s, y:%s" % (x, y))
+        bezierCurve = BezireMouse.generateBezierCurve(startPoint, endPoint)
+        totalPoints = len(bezierCurve)
+        speedFactor = calculateSpeedFactor(startPoint, endPoint)
+        print(speedFactor)
+        for i in range(0, len(bezierCurve), speedFactor):
+            point = bezierCurve[i]
+            self.op.moveTo(point[0], point[1])
+            progress = i / totalPoints
+            delay = customEase(progress) * 0.01
+            time.sleep(delay)
 
     def leftClick(self):
         if self.config.useYjs:
