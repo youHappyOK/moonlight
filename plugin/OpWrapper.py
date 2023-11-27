@@ -146,13 +146,20 @@ class OpWrapper:
             self.yjsInput.KeyPressStr(*args)
         else:
             for arg in args[0]:
-                self.op.KeyPressChar(arg)
+                self.KeyPressChar(arg)
+                time.sleep(random.uniform(0.1, 0.3))
 
     def KeyPressChar(self, *args):
         if self.config.useYjs:
             self.yjsInput.keyPressChar(*args)
         else:
-            self.op.KeyPressChar(*args)
+            if args[0] == '@':
+                self.op.KeyDownChar('shift')
+                self.op.KeyDownChar('2')
+                self.op.KeyUpChar('2')
+                self.op.KeyUpChar('shift')
+            else:
+                self.op.KeyPressChar(*args)
 
     # 找图方法
     def findPic(self, action):
