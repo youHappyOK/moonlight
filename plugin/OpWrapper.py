@@ -127,6 +127,7 @@ class OpWrapper:
             progress = i / totalPoints
             delay = customEase(progress) * 0.01
             time.sleep(delay)
+        self.op.moveTo(x, y)
 
     def leftClick(self):
         if self.config.useYjs:
@@ -144,7 +145,7 @@ class OpWrapper:
         if self.config.useYjs:
             self.yjsInput.KeyPressStr(*args)
         else:
-            for arg in args:
+            for arg in args[0]:
                 self.op.KeyPressChar(arg)
 
     def KeyPressChar(self, *args):
