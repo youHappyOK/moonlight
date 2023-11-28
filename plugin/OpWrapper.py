@@ -9,10 +9,9 @@
 import time
 import random
 
-from Sidecar import calculateSpeedFactor, customEase
 from common.Container import Container
-from cv.CvFind import CvFind
 from input.BezierMouse import BezireMouse
+from input.OpInputHidKeyCode import OpInputHidKeyCode
 from plugin.Point import Point
 
 
@@ -23,7 +22,6 @@ class OpWrapper:
         self.yjsInput = None
         self.config = Container.get('ApplicationProperties')
         self.bindWin = 0
-        self.cvFind = CvFind()
 
     def setYjsInput(self, yjsInput):
         self.yjsInput = yjsInput
@@ -31,6 +29,27 @@ class OpWrapper:
     def bindWindow(self, *args):
         self.bindWin = args[0]
         return self.op.BindWindow(*args)
+
+    def unbindWindow(self):
+        self.op.UnBindWindow()
+
+    def rebindWindow(self, *args):
+        self.bindWin = args[0]
+        return self.op.BindWindow(*args)
+
+    def enumWindow(self, title, className, filter):
+        unbindHwnds = []
+        hwnd0 = self.op.EnumWindow(0, title, className, filter)
+        if hwnd0 != '':
+            for hwnd1 in hwnd0.split(','):
+                unbindHwnds.append(hwnd1)
+        return unbindHwnds
+
+    def activeWindow(self, bindWin):
+        self.op.SetWindowState(bindWin, 1)
+
+    def miniWindow(self, bindWin):
+        self.op.SetWindowState(bindWin, 2)
 
     # 循环执行
     def run(self, actionList, times=0):
@@ -47,7 +66,26 @@ class OpWrapper:
 
     # 只执行一次
     def runOnce(self, actionList, breakFlag):
+
+        actionhasOrder = False
+
         for action in actionList:
+            order = action.orderNum
+            if order == 0:
+                continue
+            else:
+                actionhasOrder = True
+                break
+
+        # 如果有顺序对actionList排序
+        if actionhasOrder:
+            actionList = sorted(actionList, key=lambda x: x.orderNum)
+
+        runOrder = 1
+        while runOrder <= len(actionList):
+
+            action = actionList[runOrder - 1]
+            print(*action.argsArr)
             findPicRet = None
             if action.argsArr:
                 findPicRet = self.findPic(action)
@@ -98,7 +136,15 @@ class OpWrapper:
                     # 同一个action中两个method的间隔时间，默认0.3s
                     time.sleep(action.intervalTime)
                 if breakFlag['exit']:
+                    runOrder += 1
                     break
+            else:
+                if actionhasOrder:
+                    time.sleep(1)
+                    # 如果没找到图且有顺序，就重复循环找
+                    continue
+
+            runOrder += 1
             time.sleep(1)
 
     def moveTo(self, x, y):
@@ -106,8 +152,10 @@ class OpWrapper:
         if self.config.useYjs:
             self.yjsInput.moveTo(x, y)
         else:
-            # self.op.MoveTo(x, y)
-            self.moveToWithCurve(x, y)
+            if self.config.useFrontMouseCurve:
+                self.moveToWithCurve(x, y)
+            else:
+                self.op.MoveTo(x, y)
 
     # 带轨迹移动
     def moveToWithCurve(self, x, y):
@@ -119,13 +167,13 @@ class OpWrapper:
         # print("moveTo x: %s, y:%s" % (x, y))
         bezierCurve = BezireMouse.generateBezierCurve(startPoint, endPoint)
         totalPoints = len(bezierCurve)
-        speedFactor = calculateSpeedFactor(startPoint, endPoint)
-        print(speedFactor)
+        speedFactor = BezireMouse.calculateSpeedFactor(startPoint, endPoint)
+        # print(speedFactor)
         for i in range(0, len(bezierCurve), speedFactor):
             point = bezierCurve[i]
             self.op.moveTo(point[0], point[1])
             progress = i / totalPoints
-            delay = customEase(progress) * 0.01
+            delay = BezireMouse.customEase(progress) * 0.01
             time.sleep(delay)
         self.op.moveTo(x, y)
 
@@ -158,8 +206,16 @@ class OpWrapper:
                 self.op.KeyDownChar('2')
                 self.op.KeyUpChar('2')
                 self.op.KeyUpChar('shift')
+            if args[0] == '*':
+                self.op.KeyDownChar('shift')
+                self.op.KeyDownChar('8')
+                self.op.KeyUpChar('8')
+                self.op.KeyUpChar('shift')
+            if args[0] == '.':
+                self.op.KeyPress(OpInputHidKeyCode['.'])
             else:
                 self.op.KeyPressChar(*args)
+
 
     # 找图方法
     def findPic(self, action):
@@ -180,3 +236,6 @@ class OpWrapper:
                 return 1, x, y
             else:
                 return -1, -1, -1
+
+    def unbind(self):
+        self.op.UnBindWindow()
