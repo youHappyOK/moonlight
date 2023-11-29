@@ -91,6 +91,9 @@ class OpWrapper:
                 findPicRet = self.findPic(action)
             # 没有传argsArr或者找图找到了
             if not action.argsArr or (not findPicRet[0] == -1 and not findPicRet[1] == -1 and not findPicRet[2] == -1):
+                # 如果找到吐了，更新
+                if not findPicRet[0] == -1 and not findPicRet[1] == -1 and not findPicRet[2] == -1:
+                    action.isFindPic = True
                 action.point = Point(findPicRet[1], findPicRet[2])
                 # 按顺序执行里面的每个方法
                 for method in action.methods:
