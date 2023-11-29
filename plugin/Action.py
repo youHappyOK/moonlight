@@ -15,6 +15,7 @@ class Action:
         self.methods = []
         self.point = None
         self.intervalTime = 0.3
+        self.isFindPic = False
 
     # 自定义函数
     def func(self, method, *args, **kwargs):
