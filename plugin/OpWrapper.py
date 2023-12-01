@@ -180,6 +180,10 @@ class OpWrapper:
             time.sleep(delay)
         self.op.moveTo(x, y)
 
+    # 关闭弹窗提醒
+    def setShowErrorMsg(self):
+        self.op.SetShowErrorMsg(0)
+
     def leftClick(self):
         if self.config.useYjs:
             self.yjsInput.leftClick()
